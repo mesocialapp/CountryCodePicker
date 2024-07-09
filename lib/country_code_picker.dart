@@ -208,7 +208,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
                               ? selectedItem!.toCountryStringOnly()
                               : selectedItem.toString(),
                           style: widget.textStyle ??
-                              Theme.of(context).textTheme.button,
+                              Theme.of(context).textTheme.bodySmall,
                           overflow: widget.textOverflow,
                         ),
                       ),
